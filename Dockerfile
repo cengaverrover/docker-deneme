@@ -23,6 +23,7 @@ RUN apt-get update \
 COPY entrypoint.sh /entrypoint.sh
 COPY bashrc /home/$USERNAME/.bashrc
 
+COPY /my_py_pkg /src/my_py_pkg
 ENTRYPOINT [ "/bin/bash", "/entrypoint.sh" ]
 
 CMD ["bash"]
