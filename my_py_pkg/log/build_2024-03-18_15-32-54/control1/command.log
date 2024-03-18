@@ -1,0 +1,2 @@
+Invoking command in '/source/build/control1': PYTHONPATH=/source/build/control1/prefix_override:/source/install/control1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /source/build/control1/build --no-deps install_data
+Invoked command in '/source/build/control1' returned '0': PYTHONPATH=/source/build/control1/prefix_override:/source/install/control1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /source/build/control1/build --no-deps install_data

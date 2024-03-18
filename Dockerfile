@@ -1,8 +1,12 @@
 FROM ros:humble
 
-RUN apt-get update && apt-get install -y nano && rm -rf /var/lib/apt/lists/*
-
-COPY config/ /site_config/
+RUN apt-get update && apt-get install -y \
+    ros-humble-teleop-twist-joy \
+    build-essential \
+    cmake \
+    git \
+    screen \
+    && rm -rf /var/lib/apt/lists/*
 
 ARG USERNAME=ros
 ARG USER_UID=1000
@@ -13,6 +17,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
   && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
   && mkdir /home/$USERNAME/.config && chown $USER_UID:$USER_GID /home/$USERNAME/.config
 
+RUN usermod -aG dialout ${USERNAME}
 # Set-up sudo
 RUN apt-get update \
   && apt-get install -y sudo \
@@ -20,11 +25,12 @@ RUN apt-get update \
   && chmod 0440 /etc/sudoers.d/$USERNAME \
   && rm -rf /var/lib/apt/lists/*
 
+
 COPY entrypoint.sh /entrypoint.sh
 COPY bashrc /home/$USERNAME/.bashrc
 
-COPY /my_py_pkg /src/my_py_pkg
-ENTRYPOINT [ "/bin/bash", "/entrypoint.sh" ]
+COPY /my_py_pkg /source
+ENTRYPOINT [ "/bin/bash", "/entrypoint.sh"]
 
 CMD ["bash"]
 

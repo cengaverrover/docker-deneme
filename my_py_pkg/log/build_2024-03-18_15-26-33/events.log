@@ -1,0 +1,438 @@
+[0.000000] (-) TimerEvent: {}
+[0.000487] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.001208] (control1) JobQueued: {'identifier': 'control1', 'dependencies': OrderedDict([('teleop_twist_joy', '/source/install/teleop_twist_joy')])}
+[0.001273] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.081480] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.081994] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/source/src/teleop_twist_joy', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/source/install/teleop_twist_joy'], 'cwd': '/source/build/teleop_twist_joy', 'env': OrderedDict([('HOSTNAME', 'furcano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/source/build/teleop_twist_joy'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099623] (-) TimerEvent: {}
+[0.200112] (-) TimerEvent: {}
+[0.210571] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300254] (-) TimerEvent: {}
+[0.335498] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.351478] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400434] (-) TimerEvent: {}
+[0.489262] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500938] (-) TimerEvent: {}
+[0.504348] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.504763] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.505531] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.512537] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601093] (-) TimerEvent: {}
+[0.679626] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.701265] (-) TimerEvent: {}
+[0.707874] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.708907] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.710894] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.733457] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801466] (-) TimerEvent: {}
+[0.902024] (-) TimerEvent: {}
+[0.989634] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002259] (-) TimerEvent: {}
+[1.102855] (-) TimerEvent: {}
+[1.115042] (teleop_twist_joy) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.203000] (-) TimerEvent: {}
+[1.205932] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.290084] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.300487] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.303104] (-) TimerEvent: {}
+[1.322595] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.358668] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403324] (-) TimerEvent: {}
+[1.403744] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.503534] (-) TimerEvent: {}
+[1.604088] (-) TimerEvent: {}
+[1.654684] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.704252] (-) TimerEvent: {}
+[1.780980] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.786727] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.804466] (-) TimerEvent: {}
+[1.904990] (-) TimerEvent: {}
+[1.996073] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.005174] (-) TimerEvent: {}
+[2.030168] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.099970] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.105349] (-) TimerEvent: {}
+[2.120315] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.205535] (-) TimerEvent: {}
+[2.288470] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.289207] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.305720] (-) TimerEvent: {}
+[2.406257] (-) TimerEvent: {}
+[2.458613] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.460564] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.506425] (-) TimerEvent: {}
+[2.606919] (-) TimerEvent: {}
+[2.707408] (-) TimerEvent: {}
+[2.709865] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[2.807573] (-) TimerEvent: {}
+[2.841123] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.907740] (-) TimerEvent: {}
+[3.007212] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[3.007828] (-) TimerEvent: {}
+[3.108241] (-) TimerEvent: {}
+[3.195256] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[3.197947] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[3.208447] (-) TimerEvent: {}
+[3.309081] (-) TimerEvent: {}
+[3.367220] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[3.367870] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[3.409272] (-) TimerEvent: {}
+[3.510170] (-) TimerEvent: {}
+[3.545836] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[3.567347] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.610340] (-) TimerEvent: {}
+[3.710896] (-) TimerEvent: {}
+[3.760790] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.794135] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.805210] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.805612] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.805862] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.805991] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.811096] (-) TimerEvent: {}
+[3.853475] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.910754] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.911103] (-) TimerEvent: {}
+[3.911436] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/source/src/teleop_twist_joy/include>\n'}
+[3.911661] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.920206] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.920541] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.922633] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.926174] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.928185] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.937642] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.938088] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.940133] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.948827] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.980197] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[3.983700] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /source/build/teleop_twist_joy\n'}
+[3.998956] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[3.999889] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[4.000944] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/source/build/teleop_twist_joy', '--', '-j8', '-l8'], 'cwd': '/source/build/teleop_twist_joy', 'env': OrderedDict([('HOSTNAME', 'furcano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/source/build/teleop_twist_joy'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.011283] (-) TimerEvent: {}
+[4.111850] (-) TimerEvent: {}
+[4.113637] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[4.212021] (-) TimerEvent: {}
+[4.312695] (-) TimerEvent: {}
+[4.413211] (-) TimerEvent: {}
+[4.513713] (-) TimerEvent: {}
+[4.614320] (-) TimerEvent: {}
+[4.714885] (-) TimerEvent: {}
+[4.815424] (-) TimerEvent: {}
+[4.915999] (-) TimerEvent: {}
+[5.016589] (-) TimerEvent: {}
+[5.117133] (-) TimerEvent: {}
+[5.217669] (-) TimerEvent: {}
+[5.318257] (-) TimerEvent: {}
+[5.418772] (-) TimerEvent: {}
+[5.519264] (-) TimerEvent: {}
+[5.619895] (-) TimerEvent: {}
+[5.720511] (-) TimerEvent: {}
+[5.821114] (-) TimerEvent: {}
+[5.921715] (-) TimerEvent: {}
+[6.022314] (-) TimerEvent: {}
+[6.122906] (-) TimerEvent: {}
+[6.223452] (-) TimerEvent: {}
+[6.324058] (-) TimerEvent: {}
+[6.424670] (-) TimerEvent: {}
+[6.525262] (-) TimerEvent: {}
+[6.625896] (-) TimerEvent: {}
+[6.726433] (-) TimerEvent: {}
+[6.827088] (-) TimerEvent: {}
+[6.927696] (-) TimerEvent: {}
+[7.028228] (-) TimerEvent: {}
+[7.128796] (-) TimerEvent: {}
+[7.229338] (-) TimerEvent: {}
+[7.329874] (-) TimerEvent: {}
+[7.430472] (-) TimerEvent: {}
+[7.531172] (-) TimerEvent: {}
+[7.631724] (-) TimerEvent: {}
+[7.732244] (-) TimerEvent: {}
+[7.832773] (-) TimerEvent: {}
+[7.933306] (-) TimerEvent: {}
+[8.033876] (-) TimerEvent: {}
+[8.134439] (-) TimerEvent: {}
+[8.235019] (-) TimerEvent: {}
+[8.335568] (-) TimerEvent: {}
+[8.436127] (-) TimerEvent: {}
+[8.536623] (-) TimerEvent: {}
+[8.637127] (-) TimerEvent: {}
+[8.737944] (-) TimerEvent: {}
+[8.838494] (-) TimerEvent: {}
+[8.939081] (-) TimerEvent: {}
+[9.039646] (-) TimerEvent: {}
+[9.140236] (-) TimerEvent: {}
+[9.240846] (-) TimerEvent: {}
+[9.341632] (-) TimerEvent: {}
+[9.442213] (-) TimerEvent: {}
+[9.542794] (-) TimerEvent: {}
+[9.643373] (-) TimerEvent: {}
+[9.743939] (-) TimerEvent: {}
+[9.844506] (-) TimerEvent: {}
+[9.945326] (-) TimerEvent: {}
+[10.046123] (-) TimerEvent: {}
+[10.146636] (-) TimerEvent: {}
+[10.247153] (-) TimerEvent: {}
+[10.347730] (-) TimerEvent: {}
+[10.448329] (-) TimerEvent: {}
+[10.548922] (-) TimerEvent: {}
+[10.649472] (-) TimerEvent: {}
+[10.749948] (-) TimerEvent: {}
+[10.850460] (-) TimerEvent: {}
+[10.950914] (-) TimerEvent: {}
+[11.051476] (-) TimerEvent: {}
+[11.151956] (-) TimerEvent: {}
+[11.252415] (-) TimerEvent: {}
+[11.352897] (-) TimerEvent: {}
+[11.453446] (-) TimerEvent: {}
+[11.553914] (-) TimerEvent: {}
+[11.654452] (-) TimerEvent: {}
+[11.754966] (-) TimerEvent: {}
+[11.855446] (-) TimerEvent: {}
+[11.955942] (-) TimerEvent: {}
+[12.056419] (-) TimerEvent: {}
+[12.156867] (-) TimerEvent: {}
+[12.257375] (-) TimerEvent: {}
+[12.357977] (-) TimerEvent: {}
+[12.458491] (-) TimerEvent: {}
+[12.559056] (-) TimerEvent: {}
+[12.659536] (-) TimerEvent: {}
+[12.760025] (-) TimerEvent: {}
+[12.860529] (-) TimerEvent: {}
+[12.961019] (-) TimerEvent: {}
+[13.061436] (-) TimerEvent: {}
+[13.162174] (-) TimerEvent: {}
+[13.262684] (-) TimerEvent: {}
+[13.363109] (-) TimerEvent: {}
+[13.463594] (-) TimerEvent: {}
+[13.564161] (-) TimerEvent: {}
+[13.664625] (-) TimerEvent: {}
+[13.765175] (-) TimerEvent: {}
+[13.865803] (-) TimerEvent: {}
+[13.966345] (-) TimerEvent: {}
+[14.066860] (-) TimerEvent: {}
+[14.167297] (-) TimerEvent: {}
+[14.267844] (-) TimerEvent: {}
+[14.368293] (-) TimerEvent: {}
+[14.468722] (-) TimerEvent: {}
+[14.569197] (-) TimerEvent: {}
+[14.669721] (-) TimerEvent: {}
+[14.770328] (-) TimerEvent: {}
+[14.870828] (-) TimerEvent: {}
+[14.971276] (-) TimerEvent: {}
+[15.071719] (-) TimerEvent: {}
+[15.172176] (-) TimerEvent: {}
+[15.272723] (-) TimerEvent: {}
+[15.373217] (-) TimerEvent: {}
+[15.473772] (-) TimerEvent: {}
+[15.574216] (-) TimerEvent: {}
+[15.674709] (-) TimerEvent: {}
+[15.775139] (-) TimerEvent: {}
+[15.875623] (-) TimerEvent: {}
+[15.976066] (-) TimerEvent: {}
+[16.076618] (-) TimerEvent: {}
+[16.177045] (-) TimerEvent: {}
+[16.277486] (-) TimerEvent: {}
+[16.377997] (-) TimerEvent: {}
+[16.478505] (-) TimerEvent: {}
+[16.578929] (-) TimerEvent: {}
+[16.679415] (-) TimerEvent: {}
+[16.779907] (-) TimerEvent: {}
+[16.880458] (-) TimerEvent: {}
+[16.981001] (-) TimerEvent: {}
+[17.081465] (-) TimerEvent: {}
+[17.182022] (-) TimerEvent: {}
+[17.282465] (-) TimerEvent: {}
+[17.382913] (-) TimerEvent: {}
+[17.483415] (-) TimerEvent: {}
+[17.583927] (-) TimerEvent: {}
+[17.684396] (-) TimerEvent: {}
+[17.785288] (-) TimerEvent: {}
+[17.885868] (-) TimerEvent: {}
+[17.986360] (-) TimerEvent: {}
+[18.086831] (-) TimerEvent: {}
+[18.187403] (-) TimerEvent: {}
+[18.287983] (-) TimerEvent: {}
+[18.388435] (-) TimerEvent: {}
+[18.488941] (-) TimerEvent: {}
+[18.589473] (-) TimerEvent: {}
+[18.689962] (-) TimerEvent: {}
+[18.732022] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[18.790170] (-) TimerEvent: {}
+[18.890802] (-) TimerEvent: {}
+[18.991448] (-) TimerEvent: {}
+[19.092014] (-) TimerEvent: {}
+[19.192506] (-) TimerEvent: {}
+[19.293021] (-) TimerEvent: {}
+[19.393474] (-) TimerEvent: {}
+[19.494095] (-) TimerEvent: {}
+[19.595224] (-) TimerEvent: {}
+[19.695770] (-) TimerEvent: {}
+[19.796298] (-) TimerEvent: {}
+[19.812867] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[19.871067] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[19.896491] (-) TimerEvent: {}
+[19.997339] (-) TimerEvent: {}
+[20.098132] (-) TimerEvent: {}
+[20.198700] (-) TimerEvent: {}
+[20.299273] (-) TimerEvent: {}
+[20.399841] (-) TimerEvent: {}
+[20.500424] (-) TimerEvent: {}
+[20.600982] (-) TimerEvent: {}
+[20.701552] (-) TimerEvent: {}
+[20.802220] (-) TimerEvent: {}
+[20.902762] (-) TimerEvent: {}
+[21.003289] (-) TimerEvent: {}
+[21.103886] (-) TimerEvent: {}
+[21.204541] (-) TimerEvent: {}
+[21.305116] (-) TimerEvent: {}
+[21.405694] (-) TimerEvent: {}
+[21.506276] (-) TimerEvent: {}
+[21.606863] (-) TimerEvent: {}
+[21.707448] (-) TimerEvent: {}
+[21.808017] (-) TimerEvent: {}
+[21.908590] (-) TimerEvent: {}
+[22.009152] (-) TimerEvent: {}
+[22.109789] (-) TimerEvent: {}
+[22.210365] (-) TimerEvent: {}
+[22.310902] (-) TimerEvent: {}
+[22.411472] (-) TimerEvent: {}
+[22.512053] (-) TimerEvent: {}
+[22.612639] (-) TimerEvent: {}
+[22.713184] (-) TimerEvent: {}
+[22.813783] (-) TimerEvent: {}
+[22.914338] (-) TimerEvent: {}
+[23.014884] (-) TimerEvent: {}
+[23.115461] (-) TimerEvent: {}
+[23.216029] (-) TimerEvent: {}
+[23.316552] (-) TimerEvent: {}
+[23.417122] (-) TimerEvent: {}
+[23.517693] (-) TimerEvent: {}
+[23.618307] (-) TimerEvent: {}
+[23.718883] (-) TimerEvent: {}
+[23.819455] (-) TimerEvent: {}
+[23.920046] (-) TimerEvent: {}
+[24.020627] (-) TimerEvent: {}
+[24.121216] (-) TimerEvent: {}
+[24.222108] (-) TimerEvent: {}
+[24.322657] (-) TimerEvent: {}
+[24.423229] (-) TimerEvent: {}
+[24.523743] (-) TimerEvent: {}
+[24.624168] (-) TimerEvent: {}
+[24.724689] (-) TimerEvent: {}
+[24.825223] (-) TimerEvent: {}
+[24.925690] (-) TimerEvent: {}
+[25.026217] (-) TimerEvent: {}
+[25.126791] (-) TimerEvent: {}
+[25.150978] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[25.226999] (-) TimerEvent: {}
+[25.327643] (-) TimerEvent: {}
+[25.428310] (-) TimerEvent: {}
+[25.528818] (-) TimerEvent: {}
+[25.629614] (-) TimerEvent: {}
+[25.661764] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[25.687658] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[25.729834] (-) TimerEvent: {}
+[25.756277] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'install'}
+[25.793234] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/source/build/teleop_twist_joy'], 'cwd': '/source/build/teleop_twist_joy', 'env': OrderedDict([('HOSTNAME', 'furcano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/source/build/teleop_twist_joy'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[25.808741] (teleop_twist_joy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.809558] (teleop_twist_joy) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.810315] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node\n'}
+[25.827779] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy.hpp\n'}
+[25.829985] (-) TimerEvent: {}
+[25.846846] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy/teleop_twist_joy_export.h\n'}
+[25.865709] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py\n'}
+[25.883564] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml\n'}
+[25.900948] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/config/pdp.config.yaml\n'}
+[25.917805] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml\n'}
+[25.930163] (-) TimerEvent: {}
+[25.934748] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml\n'}
+[25.967354] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml\n'}
+[25.985477] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml\n'}
+[26.006456] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh\n'}
+[26.024901] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv\n'}
+[26.030344] (-) TimerEvent: {}
+[26.046001] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy\n'}
+[26.067806] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy\n'}
+[26.087537] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh\n'}
+[26.107947] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv\n'}
+[26.130507] (-) TimerEvent: {}
+[26.136383] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh\n'}
+[26.165012] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv\n'}
+[26.192280] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash\n'}
+[26.220401] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh\n'}
+[26.230700] (-) TimerEvent: {}
+[26.238490] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh\n'}
+[26.271173] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv\n'}
+[26.291019] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv\n'}
+[26.319818] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy\n'}
+[26.330863] (-) TimerEvent: {}
+[26.351667] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy\n'}
+[26.380230] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.408236] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.431066] (-) TimerEvent: {}
+[26.435666] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.465419] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake\n'}
+[26.494987] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake\n'}
+[26.522534] (teleop_twist_joy) StdoutLine: {'line': b'-- Symlinking: /source/install/teleop_twist_joy/share/teleop_twist_joy/package.xml\n'}
+[26.531228] (-) TimerEvent: {}
+[26.551839] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /source/install/teleop_twist_joy/lib/libteleop_twist_joy.so\n'}
+[26.570405] (teleop_twist_joy) StdoutLine: {'line': b'-- Set runtime path of "/source/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""\n'}
+[26.570986] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /source/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake\n'}
+[26.571277] (teleop_twist_joy) StdoutLine: {'line': b'-- Installing: /source/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake\n'}
+[26.575656] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[26.631446] (-) TimerEvent: {}
+[26.732727] (-) TimerEvent: {}
+[26.833200] (-) TimerEvent: {}
+[26.856346] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 0}
+[26.857349] (control1) JobStarted: {'identifier': 'control1'}
+[26.933605] (-) TimerEvent: {}
+[27.034199] (-) TimerEvent: {}
+[27.134682] (-) TimerEvent: {}
+[27.235176] (-) TimerEvent: {}
+[27.335711] (-) TimerEvent: {}
+[27.436515] (-) TimerEvent: {}
+[27.537383] (-) TimerEvent: {}
+[27.637902] (-) TimerEvent: {}
+[27.738469] (-) TimerEvent: {}
+[27.838994] (-) TimerEvent: {}
+[27.939570] (-) TimerEvent: {}
+[28.001501] (control1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/source/build/control1/build', '--no-deps', 'install_data'], 'cwd': '/source/build/control1', 'env': {'HOSTNAME': 'furcano', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/source/install/teleop_twist_joy/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/source/install/teleop_twist_joy:/opt/ros/humble', 'PWD': '/source/build/control1', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/source/build/control1/prefix_override:/source/install/control1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/source/install/teleop_twist_joy'}, 'shell': False}
+[28.039775] (-) TimerEvent: {}
+[28.140266] (-) TimerEvent: {}
+[28.240785] (-) TimerEvent: {}
+[28.341319] (-) TimerEvent: {}
+[28.397159] (control1) StdoutLine: {'line': b'running develop\n'}
+[28.397607] (control1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[28.397851] (control1) StderrLine: {'line': b'  warnings.warn(\n'}
+[28.399776] (control1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[28.400031] (control1) StderrLine: {'line': b'  warnings.warn(\n'}
+[28.441514] (-) TimerEvent: {}
+[28.542099] (-) TimerEvent: {}
+[28.550748] (control1) StdoutLine: {'line': b'running egg_info\n'}
+[28.551193] (control1) StdoutLine: {'line': b'creating control1.egg-info\n'}
+[28.551758] (control1) StdoutLine: {'line': b'writing control1.egg-info/PKG-INFO\n'}
+[28.552311] (control1) StdoutLine: {'line': b'writing dependency_links to control1.egg-info/dependency_links.txt\n'}
+[28.552896] (control1) StdoutLine: {'line': b'writing entry points to control1.egg-info/entry_points.txt\n'}
+[28.553229] (control1) StdoutLine: {'line': b'writing requirements to control1.egg-info/requires.txt\n'}
+[28.553396] (control1) StdoutLine: {'line': b'writing top-level names to control1.egg-info/top_level.txt\n'}
+[28.553563] (control1) StdoutLine: {'line': b"writing manifest file 'control1.egg-info/SOURCES.txt'\n"}
+[28.556617] (control1) StdoutLine: {'line': b"reading manifest file 'control1.egg-info/SOURCES.txt'\n"}
+[28.557618] (control1) StdoutLine: {'line': b"writing manifest file 'control1.egg-info/SOURCES.txt'\n"}
+[28.560645] (control1) StdoutLine: {'line': b'running build_ext\n'}
+[28.561072] (control1) StdoutLine: {'line': b'Creating /source/install/control1/lib/python3.10/site-packages/control1.egg-link (link to .)\n'}
+[28.563379] (control1) StdoutLine: {'line': b'Installing joy_node script to /source/install/control1/lib/control1\n'}
+[28.563837] (control1) StdoutLine: {'line': b'Installing teleop_node script to /source/install/control1/lib/control1\n'}
+[28.564256] (control1) StdoutLine: {'line': b'\n'}
+[28.564427] (control1) StdoutLine: {'line': b'Installed /source/build/control1\n'}
+[28.564557] (control1) StdoutLine: {'line': b'running install_data\n'}
+[28.564741] (control1) StdoutLine: {'line': b'creating /source/install/control1/share/ament_index\n'}
+[28.564922] (control1) StdoutLine: {'line': b'creating /source/install/control1/share/ament_index/resource_index\n'}
+[28.565060] (control1) StdoutLine: {'line': b'creating /source/install/control1/share/ament_index/resource_index/packages\n'}
+[28.565227] (control1) StdoutLine: {'line': b'copying resource/control1 -> /source/install/control1/share/ament_index/resource_index/packages\n'}
+[28.565394] (control1) StdoutLine: {'line': b'copying package.xml -> /source/install/control1/share/control1\n'}
+[28.565527] (control1) StdoutLine: {'line': b'copying launch/control.launch.py -> /source/install/control1/share/control1\n'}
+[28.565721] (control1) StdoutLine: {'line': b'copying config/joystick.yaml -> /source/install/control1/share/control1\n'}
+[28.621263] (control1) CommandEnded: {'returncode': 0}
+[28.642488] (-) TimerEvent: {}
+[28.727261] (control1) JobEnded: {'identifier': 'control1', 'rc': 0}
+[28.728693] (-) EventReactorShutdown: {}

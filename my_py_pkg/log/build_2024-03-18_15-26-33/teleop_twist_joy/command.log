@@ -1,0 +1,6 @@
+Invoking command in '/source/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/install/teleop_twist_joy
+Invoked command in '/source/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /source/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/source/install/teleop_twist_joy
+Invoking command in '/source/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/build/teleop_twist_joy -- -j8 -l8
+Invoked command in '/source/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /source/build/teleop_twist_joy -- -j8 -l8
+Invoking command in '/source/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/build/teleop_twist_joy
+Invoked command in '/source/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /source/build/teleop_twist_joy

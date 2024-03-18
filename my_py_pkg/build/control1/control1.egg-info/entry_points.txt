@@ -1,0 +1,4 @@
+[console_scripts]
+joy_node = control1.joy_node:main
+teleop_node = control1.teleop_node:main
+

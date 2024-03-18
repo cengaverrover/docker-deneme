@@ -1,0 +1,31 @@
+[1.146s] Invoking command in '/source/build/control1': AMENT_PREFIX_PATH=/source/install/teleop_twist_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/source/install/teleop_twist_joy LD_LIBRARY_PATH=/source/install/teleop_twist_joy/lib:${LD_LIBRARY_PATH} PYTHONPATH=/source/build/control1/prefix_override:/source/install/control1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /source/build/control1/build --no-deps install_data
+[1.540s] running develop
+[1.540s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.541s]   warnings.warn(
+[1.543s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.543s]   warnings.warn(
+[1.694s] running egg_info
+[1.694s] creating control1.egg-info
+[1.695s] writing control1.egg-info/PKG-INFO
+[1.695s] writing dependency_links to control1.egg-info/dependency_links.txt
+[1.696s] writing entry points to control1.egg-info/entry_points.txt
+[1.696s] writing requirements to control1.egg-info/requires.txt
+[1.696s] writing top-level names to control1.egg-info/top_level.txt
+[1.696s] writing manifest file 'control1.egg-info/SOURCES.txt'
+[1.699s] reading manifest file 'control1.egg-info/SOURCES.txt'
+[1.700s] writing manifest file 'control1.egg-info/SOURCES.txt'
+[1.703s] running build_ext
+[1.704s] Creating /source/install/control1/lib/python3.10/site-packages/control1.egg-link (link to .)
+[1.706s] Installing joy_node script to /source/install/control1/lib/control1
+[1.707s] Installing teleop_node script to /source/install/control1/lib/control1
+[1.707s] 
+[1.707s] Installed /source/build/control1
+[1.707s] running install_data
+[1.708s] creating /source/install/control1/share/ament_index
+[1.708s] creating /source/install/control1/share/ament_index/resource_index
+[1.708s] creating /source/install/control1/share/ament_index/resource_index/packages
+[1.708s] copying resource/control1 -> /source/install/control1/share/ament_index/resource_index/packages
+[1.708s] copying package.xml -> /source/install/control1/share/control1
+[1.708s] copying launch/control.launch.py -> /source/install/control1/share/control1
+[1.708s] copying config/joystick.yaml -> /source/install/control1/share/control1
+[1.764s] Invoked command in '/source/build/control1' returned '0': AMENT_PREFIX_PATH=/source/install/teleop_twist_joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/source/install/teleop_twist_joy LD_LIBRARY_PATH=/source/install/teleop_twist_joy/lib:${LD_LIBRARY_PATH} PYTHONPATH=/source/build/control1/prefix_override:/source/install/control1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /source/build/control1/build --no-deps install_data

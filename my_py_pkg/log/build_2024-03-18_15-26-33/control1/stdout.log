@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating control1.egg-info
+writing control1.egg-info/PKG-INFO
+writing dependency_links to control1.egg-info/dependency_links.txt
+writing entry points to control1.egg-info/entry_points.txt
+writing requirements to control1.egg-info/requires.txt
+writing top-level names to control1.egg-info/top_level.txt
+writing manifest file 'control1.egg-info/SOURCES.txt'
+reading manifest file 'control1.egg-info/SOURCES.txt'
+writing manifest file 'control1.egg-info/SOURCES.txt'
+running build_ext
+Creating /source/install/control1/lib/python3.10/site-packages/control1.egg-link (link to .)
+Installing joy_node script to /source/install/control1/lib/control1
+Installing teleop_node script to /source/install/control1/lib/control1
+
+Installed /source/build/control1
+running install_data
+creating /source/install/control1/share/ament_index
+creating /source/install/control1/share/ament_index/resource_index
+creating /source/install/control1/share/ament_index/resource_index/packages
+copying resource/control1 -> /source/install/control1/share/ament_index/resource_index/packages
+copying package.xml -> /source/install/control1/share/control1
+copying launch/control.launch.py -> /source/install/control1/share/control1
+copying config/joystick.yaml -> /source/install/control1/share/control1
