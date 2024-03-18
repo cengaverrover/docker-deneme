@@ -1,7 +1,7 @@
 FROM ros:humble
 
 RUN apt-get update && apt-get install -y apt-transport-https
-RUN rm /etc/apt/sources.list.d/cuda*.list
+
 RUN apt-get update && apt-get install -y \
     ros-humble-teleop-twist-joy \
     build-essential \
