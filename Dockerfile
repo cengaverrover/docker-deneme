@@ -1,5 +1,7 @@
 FROM ros:humble
 
+RUN apt-get update && apt-get install -y apt-transport-https
+
 RUN apt-get update && apt-get install -y \
     ros-humble-teleop-twist-joy \
     build-essential \
