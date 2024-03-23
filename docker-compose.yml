@@ -6,16 +6,15 @@ services:
       - "USERNAME=ros"
     volumes:
       - .:/home/ros
-    networks:
-      - ros_network
+    
 
   micro_ros_agent1:
     image: microros/micro-ros-agent:humble
     command: serial --dev /dev/pico1
     devices:
       - "/dev/pico1:/dev/pico1"
-    networks:
-      - ros_network
+    network_mode: "host"
+    ipc: host
     ports:
       - "8888:8888"
   micro_ros_agent2:
@@ -23,11 +22,7 @@ services:
     command: serial --dev /dev/pico2
     devices:
       - "/dev/pico2:/dev/pico2"
-    networks:
-      - ros_network
+    network_mode: "host"
+    ipc: host
     ports:
       - "8889:8888"
-
-networks:
-  ros_network:
-    driver: bridge
