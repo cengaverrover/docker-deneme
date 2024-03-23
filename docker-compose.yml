@@ -15,8 +15,7 @@ services:
       - "/dev/pico1:/dev/pico1"
     network_mode: "host"
     ipc: host
-    ports:
-      - "8888:8888"
+        
   micro_ros_agent2:
     image: microros/micro-ros-agent:humble
     command: serial --dev /dev/pico2
@@ -24,5 +23,3 @@ services:
       - "/dev/pico2:/dev/pico2"
     network_mode: "host"
     ipc: host
-    ports:
-      - "8889:8888"
