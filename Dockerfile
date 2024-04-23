@@ -1,32 +1,15 @@
-FROM ros:humble
+FROM dustynv/ros:humble-desktop-l4t-r32.7.1
 
 RUN apt-get update && apt-get install -y apt-transport-https
 
 RUN apt-get update && apt-get install -y \
     ros-humble-teleop-twist-joy \
     build-essential \
+    python3-opencv \
+    python3-pip \
     cmake \
     git \
     python3-pip \
-    libhdf5-serial-dev \
-    hdf5-tools \
-    libhdf5-dev \
-    zlib1g-dev \
-    zip \
-    libjpeg8-dev \
-    liblapack-dev \
-    libblas-dev \
-    gfortran \
-    libhdf5-dev \
-    libopencv-dev \
-    ros-humble-cv-bridge \
-    ros-humble-image-transport \
-    ros-humble-camera-info-manager \
-    build-essential \
-    pkg-config \
-    libfreetype6-dev \
-    python3-setuptools \
-    screen \
     && rm -rf /var/lib/apt/lists/*
 
 ARG USERNAME=jetson
