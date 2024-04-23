@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (control1) JobQueued: {'identifier': 'control1', 'dependencies': OrderedDict()}
+[0.000623] (control1) JobStarted: {'identifier': 'control1'}
+[0.099206] (-) TimerEvent: {}
+[0.199673] (-) TimerEvent: {}
+[0.299974] (-) TimerEvent: {}
+[0.400499] (-) TimerEvent: {}
+[0.501009] (-) TimerEvent: {}
+[0.601312] (-) TimerEvent: {}
+[0.701608] (-) TimerEvent: {}
+[0.764135] (control1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/source/build/control1/build', '--no-deps', 'install_data'], 'cwd': '/source/build/control1', 'env': {'HOSTNAME': 'furcano', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/source/build/control1', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/source/build/control1/prefix_override:/source/install/control1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.801709] (-) TimerEvent: {}
+[0.901999] (-) TimerEvent: {}
+[1.002283] (-) TimerEvent: {}
+[1.022076] (control1) StdoutLine: {'line': b'running develop\n'}
+[1.022738] (control1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.022995] (control1) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.024415] (control1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.024787] (control1) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.102403] (-) TimerEvent: {}
+[1.126236] (control1) StdoutLine: {'line': b'running egg_info\n'}
+[1.126578] (control1) StdoutLine: {'line': b'writing control1.egg-info/PKG-INFO\n'}
+[1.126844] (control1) StdoutLine: {'line': b'writing dependency_links to control1.egg-info/dependency_links.txt\n'}
+[1.127083] (control1) StdoutLine: {'line': b'writing entry points to control1.egg-info/entry_points.txt\n'}
+[1.127329] (control1) StdoutLine: {'line': b'writing requirements to control1.egg-info/requires.txt\n'}
+[1.127499] (control1) StdoutLine: {'line': b'writing top-level names to control1.egg-info/top_level.txt\n'}
+[1.129050] (control1) StdoutLine: {'line': b"reading manifest file 'control1.egg-info/SOURCES.txt'\n"}
+[1.129951] (control1) StdoutLine: {'line': b"writing manifest file 'control1.egg-info/SOURCES.txt'\n"}
+[1.131628] (control1) StdoutLine: {'line': b'running build_ext\n'}
+[1.131939] (control1) StdoutLine: {'line': b'Creating /source/install/control1/lib/python3.10/site-packages/control1.egg-link (link to .)\n'}
+[1.133171] (control1) StdoutLine: {'line': b'Installing joy_node script to /source/install/control1/lib/control1\n'}
+[1.133423] (control1) StdoutLine: {'line': b'Installing teleop_node script to /source/install/control1/lib/control1\n'}
+[1.133656] (control1) StdoutLine: {'line': b'\n'}
+[1.133863] (control1) StdoutLine: {'line': b'Installed /source/build/control1\n'}
+[1.134029] (control1) StdoutLine: {'line': b'running install_data\n'}
+[1.171836] (control1) CommandEnded: {'returncode': 0}
+[1.202768] (-) TimerEvent: {}
+[1.261000] (control1) JobEnded: {'identifier': 'control1', 'rc': 0}
+[1.262203] (-) EventReactorShutdown: {}
