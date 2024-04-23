@@ -1,4 +1,4 @@
-FROM dustynv/ros:humble-desktop-l4t-r32.7.1
+FROM nvcr.io/nvidia/isaac/ros:aarch64-ros2_humble_b7e1ed6c02a6fa3c1c7392479291c035
 
 RUN apt-get update && apt-get install -y apt-transport-https
 
