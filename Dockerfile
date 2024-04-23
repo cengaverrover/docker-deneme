@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     screen \
     && rm -rf /var/lib/apt/lists/*
 
-ARG USERNAME=ros
+ARG USERNAME=jetson
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 

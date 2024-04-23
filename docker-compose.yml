@@ -1,12 +1,12 @@
 version: '3'
 services:
-  ros_app:
+  ros:
     image: ros_container
     container_name: ros_container
     privileged: true
     ipc: host
     network_mode: host
-    user: ros
+    user: jetson
     devices:
       - "/dev:/dev"
     volumes:
@@ -14,7 +14,6 @@ services:
       - "./entrypoint.sh:/entrypoint.sh"
       - "./bashrc:/home/ros/.bashrc"
       - "./ros2_ws:/source"
-    command: ["/entrypoint.sh"]
     
 
   micro_ros_agent1:
