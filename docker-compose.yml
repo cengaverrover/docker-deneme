@@ -14,6 +14,7 @@ services:
       - "./entrypoint.sh:/entrypoint.sh"
       - "./bashrc:/home/ros/.bashrc"
       - "./ros2_ws:/source"
+    command: ["/entrypoint.sh"]
     
 
   micro_ros_agent1:
