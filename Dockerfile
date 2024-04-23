@@ -19,6 +19,9 @@ RUN apt-get update && apt-get install -y \
     gfortran \
     libhdf5-dev \
     libopencv-dev \
+    ros-humble-cv-bridge \
+    ros-humble-image-transport \
+    ros-humble-camera-info-manager \
     build-essential \
     pkg-config \
     libfreetype6-dev \
