@@ -7,12 +7,32 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
     git \
+    python3-pip \
+    libhdf5-serial-dev \
+    hdf5-tools \
+    libhdf5-dev \
+    zlib1g-dev \
+    zip \
+    libjpeg8-dev \
+    liblapack-dev \
+    libblas-dev \
+    gfortran \
+    libhdf5-dev \
+    libopencv-dev \
+    build-essential \
+    pkg-config \
+    libfreetype6-dev \
+    python3-setuptools \
     screen \
     && rm -rf /var/lib/apt/lists/*
 
 ARG USERNAME=jetson
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
+
+RUN pip3 install --upgrade pip
+
+RUN pip3 install opencv-python-headless==4.5.5.62
 
 # Creating a non-root user
 RUN groupadd --gid $USER_GID $USERNAME \
