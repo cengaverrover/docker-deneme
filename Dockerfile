@@ -31,7 +31,7 @@ RUN apt-get update \
 COPY entrypoint.sh /entrypoint.sh
 COPY bashrc /home/$USERNAME/.bashrc
 
-COPY /my_py_pkg /source
+COPY /ros2_ws /source
 ENTRYPOINT [ "/bin/bash", "/entrypoint.sh"]
 
 CMD ["bash"]
