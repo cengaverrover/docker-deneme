@@ -3,7 +3,7 @@ FROM dustynv/ros:humble-desktop-l4t-r32.7.1
 RUN apt-get update && apt-get install -y apt-transport-https
 
 RUN apt-get update && apt-get install -y \
-    ros-humble-teleop-twist-joy \
+    # ros-humble-teleop-twist-joy \
     build-essential \
     python3-opencv \
     python3-pip \
