@@ -35,7 +35,7 @@ ARG USER_GID=$USER_UID
 
 RUN pip3 install --upgrade pip
 
-RUN pip3 install opencv-python-headless==4.5.5.62
+RUN pip3 install opencv-python-headless==4.5.5.62 cv_bridge
 
 # Creating a non-root user
 RUN groupadd --gid $USER_GID $USERNAME \
