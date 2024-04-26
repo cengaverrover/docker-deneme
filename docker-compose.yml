@@ -1,8 +1,8 @@
 version: '3'
 services:
   ros:
-    image: ros_container
-    container_name: ros_container
+    image: ros
+    container_name: ros
     privileged: true
     ipc: host
     network_mode: host
